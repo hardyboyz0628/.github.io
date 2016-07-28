@@ -6,7 +6,7 @@
 
 
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-
+ <script src="jquery-3.1.0.min.js"></script>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
       <div class="row text-center">
         <h2>Homemade Goods</h2>
         <h3>This Year's Best</h3>
-        <a class="btn btn-primary" href="#">See all</a>
+        <a class="btn btn-primary" id="all">See all</a>
       </div>
     </div>
   </section>
@@ -72,5 +72,9 @@
     </div>
   </footer>
 </body>
-
+<script  type="text/javascript">  
+  $("#all").click(function() {
+    alert("TEST");
+  });
+</script>
 </html>
