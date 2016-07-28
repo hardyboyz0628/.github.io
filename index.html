@@ -31,7 +31,7 @@
   </section>
   <section class="container">
     <div class="row">
-      <div class="col-sm-6" id="cycle">
+      <div class="col-sm-6" id="slider">
         <p>kitchen</p>
         <div class="show1"></div>
         <div class="show2"></div>
@@ -78,13 +78,14 @@
 <script  type="text/javascript">  
 
  $(document).ready(function($) {   
-  $('#cycle').cycle({   
+  $('#slider').cycle({   
           fx: 'fade',  
           timeout:  7200,
           random:  1
          });
-  $("#all").click(function() {
+  $('#all').click(function() {
     alert("TEST");
   });
+ }
 </script>
 </html>
