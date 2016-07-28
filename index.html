@@ -7,6 +7,21 @@
   <link href="css/main.css" rel="stylesheet">
  <script src="jquery-3.1.0.min.js"></script>
  <script type="text/javascript" src="jquery.cycle.lite.js"></script>
+ 
+ 
+ <script  type="text/javascript">  
+
+ $(document).ready(function($) {   
+    $('#slider').cycle({   
+          fx: 'fade',  
+          timeout:  7200,
+          random:  1
+    });
+    $('#all').click(function() {
+      alert("TEST");
+    });
+ });
+</script>
 </head>
 
 <body>
@@ -75,17 +90,5 @@
     </div>
   </footer>
 </body>
-<script  type="text/javascript">  
 
- $(document).ready(function($) {   
-  $('#slider').cycle({   
-          fx: 'fade',  
-          timeout:  7200,
-          random:  1
-         });
-  $('#all').click(function() {
-    alert("TEST");
-  });
- });
-</script>
 </html>
