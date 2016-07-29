@@ -24,7 +24,7 @@ body {
   display:block;
 }
 .show1{
-  background:url(https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/kitchen.jpg) no-repeat scroll 0 0 transparent;
+  background:url(/k1.jpg) no-repeat scroll 0 0 transparent;
   padding :0;
   height:450px;
   width:500px;
@@ -32,7 +32,7 @@ body {
   left:0;
 }
 .show2{
-  background:url(http://www.ikea.com/ie/en/images/rooms/ikea-a-traditional-kitchen-for-the-modern-life__1364299529841-s4.jpg) no-repeat scroll 0 0 transparent;
+  background:url(/k2.jpg) no-repeat scroll 0 0 transparent;
   padding :0;
   height:450px;
   width:500px;
@@ -40,7 +40,7 @@ body {
   left:0;
 }
 .show3{
-  background:url(http://www.ikea.com/ms/media/cho_room/20153/kitchen/20153_cosk07a/20153_cosk07a_01_PH124156.jpg) no-repeat scroll 0 0 transparent;
+  background:url(k3.jpg) no-repeat scroll 0 0 transparent;
   padding :0;
   height:450px;
   width:500px;
