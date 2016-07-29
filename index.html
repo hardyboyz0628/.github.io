@@ -31,7 +31,7 @@
             scrollTop:0
         },1000);
     });
-    $('.overflow').css('max-width',$('.coverflow img').width());
+    $('.coverflow').css('max-width',$('.coverflow img').width());
     $(window).scroll(function() {
         if ( $(this).scrollTop() > 150){
             $('#gotop').fadeIn("fast");
@@ -107,7 +107,7 @@
   </ol>
 
   <!-- Wrapper for slides -->
-  <div class="container overflow"
+  <div class="container coverflow">
   <div class="carousel-inner" role="listbox">
     <div class="item active">
       <img src="/fade1.jpg" alt="...">
