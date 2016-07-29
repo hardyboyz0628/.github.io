@@ -40,7 +40,7 @@ body {
   left:0;
 }
 .show3{
-  background:url(k3.jpg) no-repeat scroll 0 0 transparent;
+  background:url(/k3.jpg) no-repeat scroll 0 0 transparent;
   padding :0;
   height:450px;
   width:500px;
@@ -75,13 +75,34 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+  //background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
-
+.fade1{
+  display: flex;
+  align-items: center;
+  background:url(/fade1.jpg) no-repeat scroll 0 0 transparent;
+  background-size: cover;
+  padding :0;
+  height:450px;
+  width:500px;
+  top:0;
+  left:0;
+}
+.fade2{
+  display: flex;
+  align-items: center;
+  background:url(/fade2.jpg) no-repeat scroll 0 0 transparent;
+  background-size: cover;
+  padding :0;
+  height:450px;
+  width:500px;
+  top:0;
+  left:0;
+}
 .jumbotron h2 {
   font-size: 60px;
   font-weight: 700;
